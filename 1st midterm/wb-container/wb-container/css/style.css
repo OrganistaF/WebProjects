@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1440px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    background-color: whitesmoke;
+}
+div{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1, h2, h3{
+    font-weight: 600;
+}
+
+img{
+    position: relative;
+}
+
+p{
+    font-weight: 400;
+    color: gray;
+}
+
+.header{
+    position: absolute;
+}
+
+.mainlogo{
+    padding-top: 130px;
+}
+
+.inline_button{
+    display: inline-block;
+}
+
+.image_text{
+    width: 100%;
+}
+
+.container{
+    width: 50%;
+    display: block;
+    float: left;
+}
+
+.container img {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.container .text{
+    margin: 50px 20px;
+}
+
+.inline_block{
+    display: inline-block;
+}
+
+.squares{
+    width: 55%;
+    margin: 5px;
+    display: block;
+    float: left;
+}
+
+.squares2{
+    width: 18%;
+    margin: 6px;
+    display: block;
+    float: left;
+}
+.button1{
+    cursor: pointer;
+    position: relative;
+    width: 150px;
+    height: 35px;
+    right: 10px;
+    border-radius: 20px;
+    border-style: hidden;
+    border-left: 1px solid #1f9180;
+    border-right: 1px solid #1f9180;
+    border-bottom: 2px solid #1f9180;
+    box-shadow: 0px 10px 25px 1px rgba(93,212,158,0.3);
+    color: white;
+    background-color: #26baa4 ;
+    
+}
+.button2{
+    cursor: pointer;
+    position: relative;
+    width: 150px;
+    height: 35px;
+    left: 10px;
+    border-radius: 20px;
+    border-style: hidden;
+    border-left: 1px solid #4854b1;
+    border-right: 1px solid #4854b1;
+    border-bottom: 2px solid #4854b1;
+    box-shadow: 0px 10px 25px 1px rgba(195,130,255,0.4);
+    color: white;
+    background-color: #6173ff;
+}
+.footer{
+    width: 1440px;
+    height: 100px;
+    background-color: rgb(223, 215, 215);
+}
+.img_foot{
+    margin-top: 20px;
+    width: 30%;
+    display: block;
+    float: left;
+}
+
+.text_foot{
+    Display: block;
+    float: left;
+    width: 30%;
+}
+
+table{
+    margin-top: 20px;
+}
+tr{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+td{
+    margin-top: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+
+.logos{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
